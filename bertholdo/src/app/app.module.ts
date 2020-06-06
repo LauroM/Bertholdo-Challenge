@@ -7,10 +7,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
+import { CarouselPresentationComponent } from './carousel-presentation/carousel-presentation.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarouselPresentationComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +22,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
