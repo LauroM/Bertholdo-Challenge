@@ -65,6 +65,31 @@
   }
 
 
+    .choose-one{
+        width: 25%;
+        height: 100%;
+        text-align: -webkit-center;
+        margin: auto;
+    
+    }
+    .child-1{
+        background-color:#231f20;
+        color: white;
+    }
+    .child-2{
+        background-color:#1f1b1c;
+        color: white;
+    }
+    .child-3{
+        background-color:#161415;
+        color: white;
+    }
+    .child-4{
+        background-color:#0f0d0e;
+        color: white;
+    }
+
+
 
   .toolbar img {
     margin: 0 16px;
@@ -289,12 +314,18 @@
     width: 1920px;
   }
 
+  .choose-one-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+  }
+
 
  .intro-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    //margin-top: 16px;
     height: 500px;
   }
   
