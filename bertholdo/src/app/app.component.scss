@@ -58,6 +58,12 @@
     font-size: 10px;
   }
   
+  .page-up{
+    background-color: red;
+    width: 50px;
+  }
+
+
   .be-sales{
     background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.82), rgba(35, 34, 34, 0.78)),
     url('../assets/Images/supermarket/wallpapersupermarket3.jpg');
@@ -345,26 +351,6 @@
     height: 500px;
   }
   
-  /*.intro-container .card:not(:last-child) {
-    margin-right: 0;
-  }
-
-  .intro-container .card:not(.highlight-card) {
-    cursor: pointer;
-  }
-
-  .intro-container .card:not(.highlight-card):hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-  }
-
-  .intro-container .card:not(.highlight-card):hover .material-icons path {
-    fill: rgb(105, 103, 103);
-  }*/
-
-
-
-
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
 
