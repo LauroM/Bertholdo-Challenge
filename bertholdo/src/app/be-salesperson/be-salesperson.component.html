@@ -1,48 +1,55 @@
-<div fxLayout="row" fxLayoutAlign="space-around center">
+<div class="principal" fxLayout="column" fxLayoutAlign="center center">
 
-    <div style="display: inline-block;">
-        <span>TEXTO</span>
+    <div class="first-column">
+        <div style="color: white; font-size: 30px; font-weight: bold;">
+            <div><span>SEJA UM REVENDEDOR</span></div>
+            <div style="padding-top: 10px;"><span>E</span><span style="color: red; padding-left: 5px;">OBTENHA</span></div>
+            <div style="padding-top: 10px;"><span style="color: red;">GRANDES LUCROS</span></div>
+            <div style="padding-top: 10px;"><span>EM SUAS VENDAS!</span></div>
+        </div>
+        <div style="color: white; font-size: 20px; padding-top: 50px;">
+            <div>Cadastre-se usando</div>
+            <div>o formulário ao lado</div>
+        </div>
     </div>
     
-    
-    
-    <div style="display: inline-block;">
+    <div class="second-column">
         <form>
             
-            <div fxLayout="row" fxLayoutAlign="space-around center">
+            <div fxLayout="row" fxLayoutAlign="center center">
                 
                 <div class="form-group" style="display: inline-block;">
-                    <label for="exampleInputPassword1" style="color: white;">Nome*</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="name" style="color: white;">Nome*</label>
+                    <input type="password" class="form-control" id="name">
                 </div>
         
                 <div class="form-group" style="display: inline-block; margin-left: 10px;">
-                    <label for="exampleInputPassword1" style="color: white;">Sobrenome*</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="surname" style="color: white;">Sobrenome*</label>
+                    <input type="password" class="form-control" id="surname">
                 </div>
             
             </div>
             
             <div class="form-group">
-                <label for="exampleInputPassword1" style="color: white;">Email*</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="email" style="color: white;">Email*</label>
+                <input type="password" class="form-control" id="email">
             </div>
         
             <div fxLayout="row" fxLayoutAlign="space-around center"  >
                 
                 <div class="form-group" style="display: inline-block;">
-                    <label for="exampleInputPassword1" style="color: white;">Telefone*</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="telefone" style="color: white;">Telefone*</label>
+                    <input type="password" class="form-control" id="telefone">
                 </div>
         
                 <div class="form-group" style="display: inline-block; margin-left: 10px;">
-                    <label for="exampleInputPassword1" style="color: white;">Link para seu curriculo*</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="cv" style="color: white;">Link para seu curriculo*</label>
+                    <input type="password" class="form-control" id="cv">
                 </div>
             
             </div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-lg btn-outline-custom">ENVIAR MEU CADASTRO</button>
         
         </form>
     </div>  
