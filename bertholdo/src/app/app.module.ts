@@ -9,11 +9,21 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import { CarouselPresentationComponent } from './carousel-presentation/carousel-presentation.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BeSalespersonComponent } from './be-salesperson/be-salesperson.component';
+import { ContactComponent } from './contact/contact.component';
+import { MakeBudgetComponent } from './make-budget/make-budget.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselPresentationComponent
+    CarouselPresentationComponent,
+    BeSalespersonComponent,
+    ContactComponent,
+    MakeBudgetComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +33,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonToggleModule,
+    MatGridListModule,
     NgbModule
   ],
   providers: [],

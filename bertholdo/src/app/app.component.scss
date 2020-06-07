@@ -48,46 +48,50 @@
     }
 
   }
+  
   .example-button-row {
     display: table-cell;
   }
+  
   .circle:before {
     content: ' \25CF ';
     font-size: 10px;
   }
-  .cat{
-    background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.5), rgba(177, 177, 177, 0)),
-    url('https://climipi.com.br/wp-content/uploads/2019/10/whatsapp.jpg');
+  
+  .be-sales{
+    background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.82), rgba(35, 34, 34, 0.78)),
+    url('../assets/Images/supermarket/wallpapersupermarket3.jpg');
+    filter: grayscale(1);
   }
+  
   .btn-talk-to-us{
     background-color: #68bb35;
     color: white;
   }
 
 
-    .choose-one{
-        width: 25%;
-        height: 100%;
-        text-align: -webkit-center;
-        margin: auto;
-    
-    }
-    .child-1{
-        background-color:#231f20;
-        color: white;
-    }
-    .child-2{
-        background-color:#1f1b1c;
-        color: white;
-    }
-    .child-3{
-        background-color:#161415;
-        color: white;
-    }
-    .child-4{
-        background-color:#0f0d0e;
-        color: white;
-    }
+  .choose-one{
+    width: 25%;
+    height: 100%;
+    text-align: -webkit-center;
+    margin: auto;
+  }
+  .child-1{
+    background-color:#231f20;
+    color: white;
+  }
+  .child-2{
+    background-color:#1f1b1c;
+    color: white;
+  }
+  .child-3{
+    background-color:#161415;
+    color: white;
+  }
+  .child-4{
+    background-color:#0f0d0e;
+    color: white;
+  }
 
 
 
@@ -319,6 +323,13 @@
     flex-wrap: wrap;
     justify-content: center;
     height: 150px;
+  }
+
+  .make-budget-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
   }
 
 
