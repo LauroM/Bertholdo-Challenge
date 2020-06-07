@@ -20,26 +20,26 @@
                 
                 <div class="form-group" style="display: inline-block;width:49%;">
                     <label for="name" style="color: white;">Nome*</label>
-                    <input type="password" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name">
                 </div>
         
                 <div class="form-group" style="display: inline-block; margin-left: 10px;width:49%">
                     <label for="surname" style="color: white;">Sobrenome*</label>
-                    <input type="password" class="form-control" id="surname">
+                    <input type="text" class="form-control" id="surname">
                 </div>
             
             </div>
             
             <div class="form-group">
                 <label for="email" style="color: white;">Email*</label>
-                <input type="password" class="form-control" id="email">
+                <input type="text" class="form-control" id="email">
             </div>
         
             <div fxLayout="row" fxLayoutAlign="space-around center"  >
                 
                 <div class="form-group" style="display: inline-block;width:49%">
                     <label for="telefone" style="color: white;">Telefone*</label>
-                    <input type="password" class="form-control" id="telefone">
+                    <input type="text" class="form-control" id="telefone">
                 </div>
         
                 <div class="form-group" style="display: inline-block; margin-left: 10px;width:49%">
@@ -49,7 +49,7 @@
             
             </div>
             
-            <button type="button" class="btn btn-lg btn-outline-custom">ENVIAR MEU CADASTRO</button>
+            <button type="button" class="btn btn-lg btn-outline-custom" (click)="simpleAlert()">ENVIAR MEU CADASTRO</button>
         
         </form>
     </div>  

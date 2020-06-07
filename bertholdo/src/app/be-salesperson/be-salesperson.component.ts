@@ -12,4 +12,16 @@ export class BeSalespersonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  /*
+    Simple alert just showing a message with successful,
+    I did not do error treatments or more features due to the time,
+    and I used the normal alert function and not the angular in this case
+  */
+  simpleAlert(){
+    alert("Cadastro enviado com sucesso");
+  }
+
+
+
 }
