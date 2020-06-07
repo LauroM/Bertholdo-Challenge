@@ -16,6 +16,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatInputModule,
     MatButtonToggleModule,
     MatGridListModule,
+    HttpClientModule,
     NgbModule
   ],
   providers: [],
