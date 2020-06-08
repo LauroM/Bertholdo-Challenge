@@ -1,0 +1,13 @@
+<button class="open-button" (click)="openForm()">ON-LINE! SÓ CHAMAR!</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Mensagem</b></label>
+    <textarea placeholder="O que você deseja?" name="msg" required></textarea>
+
+    <button type="submit" class="btn">Enviar</button>
+    <button type="button" class="btn cancel" (click)="closeForm()">Cancelar</button>
+    </form>
+</div>

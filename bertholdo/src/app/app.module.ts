@@ -18,6 +18,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {HttpClientModule} from '@angular/common/http';
 import { OurProductsComponent } from './our-products/our-products.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OurProductsComponent } from './our-products/our-products.component';
     BeSalespersonComponent,
     ContactComponent,
     MakeBudgetComponent,
-    OurProductsComponent
+    OurProductsComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
