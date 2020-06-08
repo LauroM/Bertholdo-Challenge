@@ -12,6 +12,32 @@
 <div fxFlex>
   <body class="mat-typography">
     <app-root></app-root>
+
+    <button class="open-button" onclick="openForm()">ON-LINE! SÓ CHAMAR!</button>
+
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+    
+        <label for="msg"><b>Mensagem</b></label>
+        <textarea placeholder="O que você deseja?" name="msg" required></textarea>
+    
+        <button type="submit" class="btn">Enviar</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
+      </form>
+    </div>
+    
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+
+
   </body>
     <!-- GetButton.io widget -->
   <script type="text/javascript">
@@ -19,7 +45,7 @@
         var options = {
             whatsapp: "+55 (31) 99799-6762", // WhatsApp number
             call_to_action: "Olá, este é o teste para Bertholdo", // Call to action
-            position: "right", // Position may be 'right' or 'left'
+            position: "left", // Position may be 'right' or 'left'
         };
         var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
